@@ -1,0 +1,44 @@
+
+:root {
+	--spacing: 10px;
+	--base: #007400;
+	--blur: 2px;
+	--turn: 0deg;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.changeble {
+	display: block;
+	transform: rotate(var(--turn));
+	filter: blur(var(--blur));
+	padding: var(--spacing);
+	background-color: var(--base);
+
+	transform: rotate();
+
+}
+
+.controls {
+	text-align: center;
+}
+
+.thumb {
+	height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+
+.blue {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div class="controls">
+		<h2>CSS Varibles</h2>
+
+		<label for="spacing">Spacing:</label>
+		<input type="range" name="spacing" min="0" max="200" data-sizing="px" value="10">
+
+		<label for="blur">Blur:</label>
+		<input type="range" name="blur" min="0" max="25" data-sizing="px" value="2">
+
+		<label for="base">Base Color:</label>
+		<input type="color" name="base" value="#007400" data-sizing="">
+		
+		<label for="turn">Turn by:</label>
+		<button name="turn" data-sizing="deg" value="180">90deg</button>
+
+	</div>
+	<div id="imgContainer">
+		<img src="im.jpeg" alt="" class="changeble stock" id="stock" download>
+	</div>
+	<br>
+	<input type="file" id="files" name="files[]">
+	<output id="list"></output>
+
+<script type="text/javascript" src="html2canvas.js"></script>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
